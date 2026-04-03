@@ -138,6 +138,7 @@ body {
     letter-spacing: -0.02em;
     margin-bottom: 0.25rem;
     background: linear-gradient(to right, #ffffff, #93c5fd);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -186,15 +187,71 @@ body {
 .tab-content {
     display: none;
     animation: fadeIn 0.4s ease-out;
+    gap: 3rem;
+    align-items: flex-start;
 }
 
 .tab-content.active {
-    display: block;
+    display: flex;
 }
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 320px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.sidebar .title-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.sidebar-actions, .sidebar-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    padding: 1.25rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.info-card h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #93c5fd;
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0; /* Prevents overflow */
 }
 
 /* Button */
@@ -209,6 +266,7 @@ body {
     font-size: 0.9rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     cursor: pointer;
     backdrop-filter: blur(12px);
@@ -251,11 +309,13 @@ body {
     border-radius: 16px;
     padding: 1px;
     background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     pointer-events: none;
 }
+
 
 .mac-header {
     display: flex;
@@ -592,11 +652,40 @@ code {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .tab-content.active {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+        gap: 2rem;
+    }
+
+    .sidebar .title-container {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
+    }
+
+    .header-tabs {
+        margin: 0;
+        width: 100%;
+        overflow-x: auto;
     }
     
     .code-wrapper {
