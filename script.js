@@ -1,4 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Tab Switching Logic
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    const copyBtn = document.getElementById('copyBtn');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const target = btn.getAttribute('data-target');
+            
+            // Toggle Buttons
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // Toggle Sections
+            tabContents.forEach(content => {
+                content.classList.toggle('active', content.id === target);
+            });
+
+            // Hide/Show Copy Button based on tab
+            copyBtn.style.display = target === 'section-prompt' ? 'flex' : 'none';
+        });
+    });
+
     const rawPrompt = document.getElementById('raw-prompt').textContent;
     const contentDiv = document.getElementById('prompt-content');
     
@@ -19,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Copy functionality
-    const copyBtn = document.getElementById('copyBtn');
     copyBtn.addEventListener('click', async () => {
         try {
             await navigator.clipboard.writeText(promptText);
