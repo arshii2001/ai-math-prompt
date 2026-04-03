@@ -1,0 +1,598 @@
+[
+  {
+    "seed_qa": {
+      "index": 1,
+      "grade": "4",
+      "topic": "addition",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A library in Delhi has 2,467 Hindi books and 5,312 English books. How many books are there in total?",
+      "answer": "7,779",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving money, quantities, or counts** that naturally require finding a total.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the foundation of addition.\n* Encourage **estimation before exact calculation** to check the reasonableness of answers.\n* Treat **regrouping** as exchanging ten of one place value for one of the next higher place value.\n* Promote **systematic place-wise addition**, starting from ones and moving left.\n* Use **multiple representations** (place-value breakdown, number line reasoning) to support understanding.\n* Encourage students to **explain regrouping in words** rather than memorizing steps.\n* Avoid reliance on keywords; focus on **understanding the situation** to decide the operation.\n* Reinforce that the **same addition process applies** to three- and four-digit numbers. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a total of two quantities**.\n2. Ask students to identify **what information is given** and **what total needs to be found**.\n3. Guide students to **estimate the sum** using rounding to thousands or hundreds.\n4. Break both numbers into **Thousands, Hundreds, Tens, and Ones**.\n5. Guide addition by **adding ones first**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value total reaches ten.\n7. Combine all place-value results to form the final sum.\n8. Ask students to **state the answer clearly** in words.\n9. Restate the answer in the **context of the original situation**.\n10. Reinforce the solution by connecting it to an **alternative strategy** such as number-line reasoning or adjusting one addend and compensating. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "I don't get it. Too many numbers."
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "Imagine a library in Delhi. It has two groups of books: Hindi books and English books. Can you tell me what numbers we are given for each group?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "Um... I see a 2 and a 4 and a 6 maybe?"
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "That's okay, let's look carefully. The Hindi books are written as 2,467. The English books are 5,312. Do you see those numbers now?"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "Oh, I think I see. Hindi is 2,467 and English is 5,312."
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "Great! Now, what do we need to find with these two numbers?"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "We need... the total? Like how many books altogether?"
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "Exactly, the total number of books. Before we add exactly, let's estimate. If we round each number to the nearest thousand, what would they be?"
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "Maybe 2,000 and 5,000?"
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "That's a good start. But remember we round to the nearest thousand, not just drop the lower digits. 2,467 is closer to 2,000 or 3,000?"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "Um... 2,467 is closer to 2,000 because 467 is less than 500?"
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "Right, so we keep 2,000 for the Hindi books. How about 5,312? Is it closer to 5,000 or 6,000?"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "5,312 is closer to 5,000 because 312 is less than 500."
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "Perfect. So our estimate is 2,000 + 5,000 = 7,000 books. Does that seem reasonable compared to the original numbers?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "Yeah, I think the real answer will be a little more than 7,000."
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "Good thinking! Now let's do the exact addition. First, let's break each number into thousands, hundreds, tens, and ones. Can you tell me the thousands part of 2,467?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "The first digit is 2, so 2 thousand?"
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "Yes, that's the thousands place. What about the hundreds place in 2,467?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "Um... the 4? So 4 hundred?"
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "Correct. Now the tens place?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "The 6, so 6 tens."
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "And the ones place?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "The 7 at the end."
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "Great! Now do the same for 5,312. What is the thousands part?"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "That's 5 thousand."
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "Hundreds place?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "The 3, so 3 hundred."
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "Tens place?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "The 1, so 1 ten."
+      },
+      {
+        "turn": 30,
+        "role": "tutor",
+        "content": "Ones place?"
+      },
+      {
+        "turn": 31,
+        "role": "student",
+        "content": "The 2."
+      },
+      {
+        "turn": 32,
+        "role": "tutor",
+        "content": "Excellent. Now let's add the ones digits together: 7 (from Hindi) plus 2 (from English). What do we get?"
+      },
+      {
+        "turn": 33,
+        "role": "student",
+        "content": "7 + 2 = 10?"
+      },
+      {
+        "turn": 34,
+        "role": "tutor",
+        "content": "Yes, 7 plus 2 equals 9, not 10. Let's check: 7 plus 2 is 9. Do you see why?"
+      },
+      {
+        "turn": 35,
+        "role": "student",
+        "content": "Oh, I thought 7 plus 2 was 10. Sorry."
+      },
+      {
+        "turn": 36,
+        "role": "tutor",
+        "content": "No problem. So the ones column gives us 9, and because it's less than 10 we don't need to regroup. Does that make sense?"
+      },
+      {
+        "turn": 37,
+        "role": "student",
+        "content": "Yes, I think so."
+      },
+      {
+        "turn": 38,
+        "role": "tutor",
+        "content": "Now let's add the tens digits: 6 (tens from Hindi) plus 1 (tens from English). What is 6 + 1?"
+      },
+      {
+        "turn": 39,
+        "role": "student",
+        "content": "That's 7."
+      },
+      {
+        "turn": 40,
+        "role": "tutor",
+        "content": "Right, 7 tens means 70. No regroup needed because it's less than 10 tens. Do you understand?"
+      },
+      {
+        "turn": 41,
+        "role": "student",
+        "content": "Yes."
+      },
+      {
+        "turn": 42,
+        "role": "tutor",
+        "content": "Next, the hundreds: 4 (hundreds) plus 3 (hundreds). What is 4 + 3?"
+      },
+      {
+        "turn": 43,
+        "role": "student",
+        "content": "7 again."
+      },
+      {
+        "turn": 44,
+        "role": "tutor",
+        "content": "Correct, that's 7 hundreds or 700. No regroup needed. Does that feel clear?"
+      },
+      {
+        "turn": 45,
+        "role": "student",
+        "content": "Yes."
+      },
+      {
+        "turn": 46,
+        "role": "tutor",
+        "content": "Finally, the thousands: 2 (thousands) plus 5 (thousands). What do we get?"
+      },
+      {
+        "turn": 47,
+        "role": "student",
+        "content": "7 thousand."
+      },
+      {
+        "turn": 48,
+        "role": "tutor",
+        "content": "Great! Now put all the place values together: thousands = 7, hundreds = 7, tens = 7, ones = 9. What number does that make?"
+      },
+      {
+        "turn": 49,
+        "role": "student",
+        "content": "Um... 7,7,7,9? So 7,779?"
+      },
+      {
+        "turn": 50,
+        "role": "tutor",
+        "content": "Exactly, 7,779 books in total. Can you say the answer in a full sentence, using your own words?"
+      },
+      {
+        "turn": 51,
+        "role": "student",
+        "content": "The library has seven thousand seven hundred seventy‑nine books altogether."
+      },
+      {
+        "turn": 52,
+        "role": "tutor",
+        "content": "Well done! To check our work, we can also think of it on a number line. Starting at 5,312 and moving forward by 2,467 steps lands us at the same spot, 7,779. Does that alternative view help you see the same result?"
+      },
+      {
+        "turn": 53,
+        "role": "student",
+        "content": "Yes, I see. Adding the two numbers gets us there."
+      },
+      {
+        "turn": 54,
+        "role": "tutor",
+        "content": "Are you happy with the answer and the steps we used?"
+      },
+      {
+        "turn": 55,
+        "role": "student",
+        "content": "Yes, I understand now. Thank you. ---TURN_END"
+      }
+    ]
+  },
+  {
+    "seed_qa": {
+      "index": 2,
+      "grade": "4",
+      "topic": "subtraction",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A school printed 5,432 exam papers. They distributed 3,789 papers to students. How many exam papers are left?",
+      "answer": "1,643",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving loss, difference, or remaining quantity** to ground subtraction meaningfully.\n* Treat subtraction as **finding how much is left or how much more/less**, not just reversing addition.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the basis for all subtraction.\n* Encourage **estimation before calculation** to anticipate the size of the answer.\n* Use **place-wise subtraction**, moving from ones to thousands in a consistent order.\n* Treat **regrouping** as exchanging one higher place value for ten of the next lower place value.\n* Encourage explaining each regrouping step **in words** to prevent mechanical errors.\n* Promote checking answers using **alternative reasoning** such as addition or number-line thinking.\n* Reinforce that subtraction with and without regrouping follows the **same logical structure**. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a remaining quantity or a difference**.\n2. Ask students to identify **what information is given** and **what needs to be found**.\n3. Guide students to **estimate the difference** using rounding to thousands or hundreds.\n4. Represent both numbers using **Thousands–Hundreds–Tens–Ones structure**.\n5. Guide subtraction by **starting from ones**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value does not have enough to subtract.\n7. Continue subtraction place by place until all digits are handled.\n8. Combine the remaining place-value parts to form the final result.\n9. Ask students to **state the answer clearly** in words.\n10. Restate the answer in the **context of the original situation**.\n11. Reinforce the solution by **checking through addition or estimation**. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "I don't get this problem. The numbers are too big."
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "Let's think of a story. Imagine the school printed some exam papers. They printed a big stack of papers and then gave some to the students. We need to know how many papers are still left on the table. From the problem, what numbers do we have? Can you tell me the two numbers you see?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "Um... I see 5,432 and 3,789. Those are the numbers."
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "Great. So the first number, 5,432, is how many papers were printed. The second number, 3,789, is how many were taken away. What are we trying to find? (What is the question asking?)"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "We need to find... how many papers are left? I think."
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "Yes, exactly! We want the remaining papers. Before we start the exact subtraction, let's estimate how big the answer might be. If we round each number to the nearest thousand, what do we get? (Hint: 5,432 rounds to about 5,000 and 3,789 rounds to about 4,000.)"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "Umm... 5,000 and 4,000? So the answer should be around 1,000?"
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "That’s a good estimate. So we expect the real answer to be a little more than 1,000, maybe a bit higher. Does that make sense?"
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "Yes, I think so."
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "Now let’s write the two numbers using place values: thousands, hundreds, tens, and ones. Look at 5,432. Can you tell me how many thousands it has?"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "It has... 5 big ones? Like 5 thousand?"
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "Exactly, 5 thousands. How many hundreds are in 5,432?"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "Um, 4 hundreds?"
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "Right, 4 hundreds. And the tens?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "3 tens."
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "Finally, the ones?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "2 ones."
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "Perfect. Now do the same for 3,789. How many thousands?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "That’s 3 thousand."
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "Hundreds?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "7 hundreds."
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "Tens?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "8 tens."
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "Ones?"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "9 ones."
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "Great, we have the place values set. Now we will subtract, starting with the ones place. We have 2 ones in the top number and 9 ones in the bottom number. Do we have enough ones to subtract 9 from 2? What do you think?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "No, 2 is smaller than 9. So we need to borrow?"
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "Yes, we need to regroup. We can take one ten from the tens place and turn it into ten ones. Our tens place currently has 3 tens. After borrowing one ten, how many tens will be left, and how many ones will we have?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "If we take one ten away, we have 2 tens left, and we get 10 more ones. So now we have 2 + 10 = 12 ones."
+      },
+      {
+        "turn": 30,
+        "role": "tutor",
+        "content": "Exactly. Now we have 12 ones on top and still need to subtract 9 ones. What is 12 minus 9?"
+      },
+      {
+        "turn": 31,
+        "role": "student",
+        "content": "12 minus 9 is... 3."
+      },
+      {
+        "turn": 32,
+        "role": "tutor",
+        "content": "So the ones place of our answer is 3. Do you understand how we got that?"
+      },
+      {
+        "turn": 33,
+        "role": "student",
+        "content": "Yes, we borrowed a ten and then did 12 minus 9."
+      },
+      {
+        "turn": 34,
+        "role": "tutor",
+        "content": "Good. Now move to the tens place. After borrowing, we have 2 tens left on top. The bottom number has 8 tens. Do we have enough tens to subtract 8 from 2?"
+      },
+      {
+        "turn": 35,
+        "role": "student",
+        "content": "No, 2 is smaller than 8. We need to borrow again."
+      },
+      {
+        "turn": 36,
+        "role": "tutor",
+        "content": "Right. We can borrow one hundred from the hundreds place. The top hundreds currently are 4 hundreds. After borrowing one hundred, how many hundreds remain, and how many tens do we gain?"
+      },
+      {
+        "turn": 37,
+        "role": "student",
+        "content": "If we take one hundred away, we have 3 hundreds left, and that one hundred becomes 10 tens. So we add 10 to the 2 tens we already have, making 12 tens."
+      },
+      {
+        "turn": 38,
+        "role": "tutor",
+        "content": "Perfect. Now we have 12 tens on top and need to subtract 8 tens. What is 12 minus 8?"
+      },
+      {
+        "turn": 39,
+        "role": "student",
+        "content": "12 minus 8 is 4."
+      },
+      {
+        "turn": 40,
+        "role": "tutor",
+        "content": "So the tens place of the answer is 4. Do you follow that step?"
+      },
+      {
+        "turn": 41,
+        "role": "student",
+        "content": "Yes, we borrowed a hundred and then did 12 minus 8."
+      },
+      {
+        "turn": 42,
+        "role": "tutor",
+        "content": "Now look at the hundreds place. After borrowing, we have 3 hundreds on top. The bottom number has 7 hundreds. Do we have enough hundreds to subtract 7 from 3?"
+      },
+      {
+        "turn": 43,
+        "role": "student",
+        "content": "No, 3 is less than 7. We need to borrow again."
+      },
+      {
+        "turn": 44,
+        "role": "tutor",
+        "content": "We can borrow one thousand from the thousands place. The top thousands are 5 thousands. After borrowing one thousand, how many thousands remain, and how many hundreds do we gain?"
+      },
+      {
+        "turn": 45,
+        "role": "student",
+        "content": "If we take one thousand away, we have 4 thousands left, and that thousand becomes 10 hundreds. Adding to the 3 hundreds we already have gives 13 hundreds."
+      },
+      {
+        "turn": 46,
+        "role": "tutor",
+        "content": "Great. Now we have 13 hundreds on top and need to subtract 7 hundreds. What is 13 minus 7?"
+      },
+      {
+        "turn": 47,
+        "role": "student",
+        "content": "13 minus 7 is 6."
+      },
+      {
+        "turn": 48,
+        "role": "tutor",
+        "content": "So the hundreds place of the answer is 6. Does that make sense?"
+      },
+      {
+        "turn": 49,
+        "role": "student",
+        "content": "Yes, I see it."
+      },
+      {
+        "turn": 50,
+        "role": "tutor",
+        "content": "Finally, the thousands place. After borrowing, we have 4 thousands left on top. The bottom number has 3 thousands. How many thousands remain after subtraction?"
+      },
+      {
+        "turn": 51,
+        "role": "student",
+        "content": "4 minus 3 is 1 thousand."
+      },
+      {
+        "turn": 52,
+        "role": "tutor",
+        "content": "Excellent. Now we have all the place values of the answer: 1 thousand, 6 hundreds, 4 tens, and 3 ones. Can you put those together to write the final number?"
+      },
+      {
+        "turn": 53,
+        "role": "student",
+        "content": "Um... 1,6 4 3? So 1,643?"
+      },
+      {
+        "turn": 54,
+        "role": "tutor",
+        "content": "Yes, that’s correct: 1,643 papers are left. Can you say the answer in a full sentence, using the story context?"
+      },
+      {
+        "turn": 55,
+        "role": "student",
+        "content": "There are 1,643 exam papers still left on the table after giving out 3,789."
+      },
+      {
+        "turn": 56,
+        "role": "tutor",
+        "content": "Great job! Let’s check our work by adding the papers that were given away (3,789) to the papers left (1,643). What does that sum equal? (You can add the thousands, hundreds, tens, and ones step by step if you like.)"
+      },
+      {
+        "turn": 57,
+        "role": "student",
+        "content": "Um... 3,789 plus 1,643... I think it’s 5,432?"
+      },
+      {
+        "turn": 58,
+        "role": "tutor",
+        "content": "That’s right! The sum matches the original number of printed papers, so our subtraction is correct. Are you happy with how we solved the problem?"
+      },
+      {
+        "turn": 59,
+        "role": "student",
+        "content": "Yes, I understand now. Thank you."
+      }
+    ]
+  }
+]

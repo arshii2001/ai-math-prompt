@@ -51,6 +51,52 @@
             </div>
             <div class="markdown-body" id="prompt-content"></div>
         </main>
+
+        <!-- New section for Dialogues -->
+        <section class="dialogues-section" style="margin-top: 2rem;">
+            <header class="header">
+                <div class="title-container">
+                    <div class="icon-pulse" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <div>
+                        <h1>Conversations</h1>
+                        <p>Simulated Tutor-Student Dialogues</p>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="dialogues-controls">
+                <div class="control-group">
+                    <label for="fileSelect">Dataset</label>
+                    <select id="fileSelect" class="glass-select">
+                        <option value="GPTOSS120_Hinglish.json">GPTOSS120_Hinglish.json</option>
+                        <option value="GPTOSS_convos_x1.json">GPTOSS_convos_x1.json</option>
+                        <option value="Hindi_x2.json">Hindi_x2.json</option>
+                    </select>
+                </div>
+                <div class="control-group" style="flex: 1;">
+                    <label for="convoSelect">Scenario</label>
+                    <select id="convoSelect" class="glass-select">
+                        <option>Loading...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="chat-wrapper">
+                <div class="mac-header">
+                    <div class="mac-buttons">
+                        <span class="close"></span>
+                        <span class="minimize"></span>
+                        <span class="maximize"></span>
+                    </div>
+                    <div class="mac-title">Live Chat Preview</div>
+                </div>
+                <div class="chat-messages" id="chat-container">
+                    <div class="chat-loading">Selecting scenario...</div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- The actual prompt content hidden here to preserve it exactly -->

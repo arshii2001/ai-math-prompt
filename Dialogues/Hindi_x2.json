@@ -1,0 +1,383 @@
+[
+  {
+    "seed_qa": {
+      "index": 1,
+      "grade": "4",
+      "topic": "addition",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A library in Delhi has 2,467 Hindi books and 5,312 English books. How many books are there in total?",
+      "answer": "7,779",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving money, quantities, or counts** that naturally require finding a total.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the foundation of addition.\n* Encourage **estimation before exact calculation** to check the reasonableness of answers.\n* Treat **regrouping** as exchanging ten of one place value for one of the next higher place value.\n* Promote **systematic place-wise addition**, starting from ones and moving left.\n* Use **multiple representations** (place-value breakdown, number line reasoning) to support understanding.\n* Encourage students to **explain regrouping in words** rather than memorizing steps.\n* Avoid reliance on keywords; focus on **understanding the situation** to decide the operation.\n* Reinforce that the **same addition process applies** to three- and four-digit numbers. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a total of two quantities**.\n2. Ask students to identify **what information is given** and **what total needs to be found**.\n3. Guide students to **estimate the sum** using rounding to thousands or hundreds.\n4. Break both numbers into **Thousands, Hundreds, Tens, and Ones**.\n5. Guide addition by **adding ones first**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value total reaches ten.\n7. Combine all place-value results to form the final sum.\n8. Ask students to **state the answer clearly** in words.\n9. Restate the answer in the **context of the original situation**.\n10. Reinforce the solution by connecting it to an **alternative strategy** such as number-line reasoning or adjusting one addend and compensating. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "मुझे समझ नहीं आ रहा है, ये किताबों की गिनती बहुत बड़ी है।"
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "ठीक है, चलो एक कहानी बनाते हैं। दिल्ली की लाइब्रेरी में कुछ हिन्दी किताबें हैं और कुछ इंग्लिश किताबें। हमें दोनों को जोड़ कर कुल किताबों की संख्या पता करनी है। अब बताओ, हमारे पास क्या‑क्या जानकारी है?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "उह... दो numbers हैं, एक 2,467 और दूसरा 5,312।"
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "बिल्कुल सही! अब सवाल है, इन दोनों numbers को जोड़ कर हमें क्या निकालना है?"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "कुल किताबों की गिनती।"
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "ठीक है। पहले हम अनुमान लगाते हैं कि कुल कितनी हो सकती है। आप दोनों numbers को nearest thousand तक गोल कर के क्या अनुमान लगाएंगे?"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "2,467 को 2,000 और 5,312 को 5,000, तो लगभग 7,000?"
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "बहुत बढ़िया! हमारा अनुमान 7,000 है। अब चलो सही जोड़ की ओर बढ़ते हैं। सबसे पहले, प्रत्येक number को Thousands, Hundreds, Tens, और Ones में बाँटते हैं। आप पहले number 2,467 में ये चार भाग कौन‑से हैं, बता सकते हैं?"
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "उम... 2 हजार, 4 सौ, 6 दस और 7 एक?"
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "बिल्कुल! अब वही काम दूसरे number 5,312 के साथ करें।"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "5 हजार, 3 सौ, 1 दस, 2 एक।"
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "सही है। अब हम Ones वाले अंकों को जोड़ेंगे: 7 (पहले) और 2 (दूसरे)। क्या आप 7 + 2 का जवाब बता सकते हैं?"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "7 + 2 = 10?"
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "ठीक कहा, 7 + 2 = 9 actually. 7 + 2 = 9, क्योंकि 7+2=9. क्या आप देख सकते हैं कि हमने गलती की? चलिए फिर से देखते हैं: 7 में 2 जोड़ें, तो 9 होता है। समझ आया?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "ओह, हाँ, 9 हो गया।"
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "बहुत अच्छा। अब Tens वाले अंकों को जोड़ें: पहले number में Tens 6 है, दूसरे में Tens 1 है। 6 + 1 = ?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "6 + 1 = 7।"
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "सही! अब Hundreds: 4 और 3। 4 + 3 = ?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "4 + 3 = 8?"
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "ठीक है, 4 + 3 = 7 actually. याद रखो, 4 + 3 = 7. क्या आप फिर से जोड़ सकते हैं?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "ओह, हाँ, 7।"
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "अब Thousands: 2 और 5। 2 + 5 = ?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "7।"
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "बहुत बढ़िया! अब हम सभी place‑wise परिणामों को एक साथ लिखते हैं: Thousands = 7, Hundreds = 7, Tens = 7, Ones = 9. तो कुल संख्या क्या बनती है?"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "7,779?"
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "बिल्कुल सही! अब इसे शब्दों में कहें: कुल किताबों की संख्या सात हजार सात सौ सातानवे है। समझ आया?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "हाँ, अब समझ आया।"
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "आखिरी में, एक अलग तरीका भी है। अगर हम 5,312 को 5,300 में घटा दें और फिर 12 जोड़ें, तो क्या होगा? 2,467 + 5,300 = 7,767, फिर +12 gives 7,779. क्या आप इस वैकल्पिक रणनीति को समझते हैं?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "हाँ, अब मैं देख सकता हूँ। धन्यवाद।"
+      }
+    ]
+  },
+  {
+    "seed_qa": {
+      "index": 2,
+      "grade": "4",
+      "topic": "subtraction",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A school printed 5,432 exam papers. They distributed 3,789 papers to students. How many exam papers are left?",
+      "answer": "1,643",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving loss, difference, or remaining quantity** to ground subtraction meaningfully.\n* Treat subtraction as **finding how much is left or how much more/less**, not just reversing addition.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the basis for all subtraction.\n* Encourage **estimation before calculation** to anticipate the size of the answer.\n* Use **place-wise subtraction**, moving from ones to thousands in a consistent order.\n* Treat **regrouping** as exchanging one higher place value for ten of the next lower place value.\n* Encourage explaining each regrouping step **in words** to prevent mechanical errors.\n* Promote checking answers using **alternative reasoning** such as addition or number-line thinking.\n* Reinforce that subtraction with and without regrouping follows the **same logical structure**. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a remaining quantity or a difference**.\n2. Ask students to identify **what information is given** and **what needs to be found**.\n3. Guide students to **estimate the difference** using rounding to thousands or hundreds.\n4. Represent both numbers using **Thousands–Hundreds–Tens–Ones structure**.\n5. Guide subtraction by **starting from ones**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value does not have enough to subtract.\n7. Continue subtraction place by place until all digits are handled.\n8. Combine the remaining place-value parts to form the final result.\n9. Ask students to **state the answer clearly** in words.\n10. Restate the answer in the **context of the original situation**.\n11. Reinforce the solution by **checking through addition or estimation**. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "मुझे समझ नहीं आया, ये बड़े numbers हैं।"
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "ठीक है, चलो एक कहानी बनाते हैं। एक स्कूल ने 5,432 exam papers छपे। उन्होंने 3,789 papers छात्रों को बाँटे। अब हमें पता लगाना है कि कितने papers बचेंगे। बताओ, हमें कौन‑सी जानकारी मिली और हमें क्या खोजना है?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "उम... हमें दो numbers मिले हैं, पर मैं नहीं जानता कौन‑सा बड़ा है।"
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "कोई बात नहीं। हमारे पास दो numbers हैं: 5,432 और 3,789। कौन‑सा बड़ा है, आप देख सकते हैं? बताओ, कौन‑सा संख्या बड़ी है?"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "शायद 3,789 बड़ी है?"
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "चलो देखते हैं। 5,432 में पहले अंक 5 है, और 3,789 में पहला अंक 3 है। 5 बड़ा है, इसलिए 5,432 बड़ी है। तो हमें बड़ी संख्या (minuend) और छोटी संख्या (subtrahend) पता चल गई। अब हमें क्या निकालना है?"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "हमें पता करना है कि कितने papers बचेंगे।"
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "बिल्कुल सही! अब पहले एक अनुमान लगाते हैं। दोनों numbers को हजारों के हिसाब से गोल करके देखें। 5,432 को करीब 5,000 और 3,789 को करीब 4,000 मानें। अनुमान से बची हुई papers लगभग कितनी होंगी?"
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "5,000‑4,000 = 1,000? तो शायद 1,000 बचेंगे।"
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "बहुत अच्छा अनुमान! असल में अंतर थोड़ा कम या ज्यादा हो सकता है, पर 1,000 के आसपास है। अब चलो दोनों numbers को Thousands‑Hundreds‑Tens‑Ones में लिखते हैं। 5,432 में कौन‑से place के अंक हैं? आप बता सकते हैं?"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "उह... 5 हजार, 4 सौ, 3 दहाई और 2 इकाई?"
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "सही! 5 thousands, 4 hundreds, 3 tens, 2 ones. अब 3,789 को भी वैसा ही लिखिए।"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "3 हजार, 7 सौ, 8 दहाई, 9 इकाई।"
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "बिल्कुल सही। अब subtraction शुरू करते हैं, सबसे पहले Ones place से। हमारे पास 2 (minuend) और 9 (subtrahend) हैं। 2‑9 नहीं हो सकता, तो हमें क्या करना चाहिए?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "मैं नहीं जानता... क्या हम 2 में 10 जोड़ सकते हैं?"
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "हाँ, यही regrouping है। हम Tens place से 1 ten (यानी 10) ले लेते हैं, तो Ones में 2 बन जाता है 12। अब 12‑9 = ? समझ आया?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "12‑9 = 3।"
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "बहुत अच्छा! अब Tens place पर क्या बचा? हमने Tens से 1 लिया, इसलिए पहले 3 tens अब 2 tens रह गए। अब हमारे पास 2 (minuend tens) और 8 (subtrahend tens) हैं। 2‑8 नहीं हो सकता, फिर क्या करेंगे?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "फिर से borrowing?"
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "हाँ, हम Hundreds से 1 hundred (यानी 10 tens) ले लेंगे। Hundreds में 4 बन जाता है 3, और Tens में 2 बन जाता है 12. अब 12‑8 = ? समझ आया?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "12‑8 = 4।"
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "ठीक है। अब Hundreds place देखें। हमने borrowing के बाद Hundreds में 3 बचा (पहले 4 था, एक दिया). Subtrahend में Hundreds का अंक 7 है। 3‑7 नहीं हो सकता, फिर क्या करेंगे?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "फिर से borrowing, लेकिन अब Thousands से?"
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "सही! Thousands में 5 से 1 ले लेते हैं, तो Thousands बन जाता है 4, और Hundreds में 3 बन जाता है 13 (क्योंकि हमने 1 hundred = 10). अब 13‑7 = ? बताओ।"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "13‑7 = 6।"
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "अब Thousands place पर बचे हुए अंक देखें। हमारे पास 4 (minuend) और 3 (subtrahend) हैं। 4‑3 = ? समझ आया?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "4‑3 = 1।"
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "अब सभी place‑wise परिणाम को मिलाएँ: Thousands में 1, Hundreds में 6, Tens में 4, Ones में 3। तो अंतिम उत्तर क्या है?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "1,643।"
+      },
+      {
+        "turn": 30,
+        "role": "tutor",
+        "content": "बहुत बढ़िया! इसे शब्दों में कहिए: बची हुई exam papers कितनी हैं?"
+      },
+      {
+        "turn": 31,
+        "role": "student",
+        "content": "एक हजार छह सौ तैंतीस papers बच गए।"
+      },
+      {
+        "turn": 32,
+        "role": "tutor",
+        "content": "अब इस उत्तर को कहानी में रखकर दोहराएँ। स्कूल ने कितनी papers छपे और कितनी बाँटी, और अब कितनी बची?"
+      },
+      {
+        "turn": 33,
+        "role": "student",
+        "content": "स्कूल ने 5,432 papers छपे, 3,789 बाँटे, तो 1,643 बची।"
+      },
+      {
+        "turn": 34,
+        "role": "tutor",
+        "content": "चलिए उत्तर की जाँच addition से करते हैं। बची हुई papers (1,643) को बाँटी गई papers (3,789) में जोड़ें। क्या कुल 5,432 मिलता है? पहले Ones जोड़ें।"
+      },
+      {
+        "turn": 35,
+        "role": "student",
+        "content": "3 + 9 = 12, लिखूँ 2 और 1 को Tens में ले जाऊँ?"
+      },
+      {
+        "turn": 36,
+        "role": "tutor",
+        "content": "सही, Ones में 2, Tens में 1 रखेंगे। अब Tens में हमारे पास 4 (from 1,643) + 8 (from 3,789) + 1 (carry) = ? बताओ।"
+      },
+      {
+        "turn": 37,
+        "role": "student",
+        "content": "4+8+1 = 13, लिखूँ 3 और 1 को Hundreds में ले जाऊँ।"
+      },
+      {
+        "turn": 38,
+        "role": "tutor",
+        "content": "अब Hundreds में 6 + 7 + 1 = ? बताओ।"
+      },
+      {
+        "turn": 39,
+        "role": "student",
+        "content": "6+7+1 = 14, लिखूँ 4 और 1 को Thousands में ले जाऊँ।"
+      },
+      {
+        "turn": 40,
+        "role": "tutor",
+        "content": "Thousands में 1 + 3 + 1 = 5। तो कुल मिलाकर हमें 5,432 मिला, जो हमारी मूल संख्या थी। क्या यह जाँच सही लगी?"
+      },
+      {
+        "turn": 41,
+        "role": "student",
+        "content": "हाँ, सही है। मैं समझ गया।"
+      },
+      {
+        "turn": 42,
+        "role": "tutor",
+        "content": "बहुत अच्छा! क्या अब आप इस तरह के किसी और प्रश्न को भी कर सकते हैं?"
+      }
+    ]
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "seed_qa": {
+      "index": 1,
+      "grade": "4",
+      "topic": "addition",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A library in Delhi has 2,467 Hindi books and 5,312 English books. How many books are there in total?",
+      "answer": "7,779",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving money, quantities, or counts** that naturally require finding a total.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the foundation of addition.\n* Encourage **estimation before exact calculation** to check the reasonableness of answers.\n* Treat **regrouping** as exchanging ten of one place value for one of the next higher place value.\n* Promote **systematic place-wise addition**, starting from ones and moving left.\n* Use **multiple representations** (place-value breakdown, number line reasoning) to support understanding.\n* Encourage students to **explain regrouping in words** rather than memorizing steps.\n* Avoid reliance on keywords; focus on **understanding the situation** to decide the operation.\n* Reinforce that the **same addition process applies** to three- and four-digit numbers. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a total of two quantities**.\n2. Ask students to identify **what information is given** and **what total needs to be found**.\n3. Guide students to **estimate the sum** using rounding to thousands or hundreds.\n4. Break both numbers into **Thousands, Hundreds, Tens, and Ones**.\n5. Guide addition by **adding ones first**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value total reaches ten.\n7. Combine all place-value results to form the final sum.\n8. Ask students to **state the answer clearly** in words.\n9. Restate the answer in the **context of the original situation**.\n10. Reinforce the solution by connecting it to an **alternative strategy** such as number-line reasoning or adjusting one addend and compensating. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "Mujhe ye question samajh nahi aa raha. Numbers bahut bade hain."
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "Thik hai, chalo ek kahani banate hain. Socho Delhi ki ek library mein Hindi ki 2,467 kitabein hain aur English ki 5,312 kitabein hain. Humein kya nikalna hai?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "Um... Hindi ki kitabein aur English ki kitabein? Total kitni?"
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "Bilkul! Humein dono tarah ki kitabein milake total kitabein pata karni hain. Ab batao, humein kaun kaun se numbers diye gaye hain?"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "2,467 aur 5,312? Ya phir 2 aur 5?"
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "Haan, sahi. Pehle number 2,467 (Hindi) aur doosra 5,312 (English). Samajh aaya?"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "Haan, thoda samajh aaya."
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "Ab thoda estimate karte hain. Agar hum 2,467 ko 2,000 ke aas‑paas round karen aur 5,312 ko 5,000 ke aas‑paas, to total kitna ho sakta hai? Koshish karo."
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "2,000 + 5,000 = 7,000? Ya 8,000?"
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "2,000 + 5,000 = 7,000. Toh hamara exact answer 7,000 ke aas‑paas hi hona chahiye. Estimate theek lag raha hai? Samajh aaya?"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "Haan, 7,000 ke around."
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "Ab numbers ko chaar parts mein baantte hain: Thousands, Hundreds, Tens, Ones. Pehle Ones (sabse right side) wale digits dekho. 2,467 ka Ones digit kya hai? Aur 5,312 ka Ones digit kya hai?"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "2,467 ka last number 7 hai, aur 5,312 ka last number 2? Ya 2,467 ka 2?"
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "Bilkul, 2,467 ka Ones digit 7 hai. 5,312 ka Ones digit 2 hai. Dono ko ek saath add karte hain: 7 + 2 = ?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "7 + 2 = 10?"
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "7 + 2 actually 9 hota hai. Kyonki 7+2=9. Koi carry (regroup) nahi hota kyunki 9 < 10. Samajh aaya?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "Oh, 9. Theek hai."
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "Ab Tens place ki baari hai. Tens digit wo second last hota hai. 2,467 ka Tens digit kya hai? Aur 5,312 ka Tens digit kya hai?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "2,467 ka 6? Aur 5,312 ka 1?"
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "Haan, sahi. 6 aur 1. Ab inhe add karo: 6 + 1 = ?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "6 + 1 = 7."
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "Great! Tens ka sum 7 hai, aur phir se koi carry nahi hua kyunki 7 < 10. Samajh aaya?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "Haan."
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "Ab Hundreds place. 2,467 ka Hundreds digit kaunsa hai? Aur 5,312 ka?"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "2,467 ka 4? Aur 5,312 ka 3?"
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "Bilkul. 4 + 3 = ?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "4 + 3 = 7."
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "Hundred ka sum bhi 7 hai, aur koi carry nahi. Samajh aaya?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "Haan."
+      },
+      {
+        "turn": 30,
+        "role": "tutor",
+        "content": "Ab Thousands place. 2,467 ka Thousands digit 2 hai, aur 5,312 ka Thousands digit 5 hai. Inhe add karo."
+      },
+      {
+        "turn": 31,
+        "role": "student",
+        "content": "2 + 5 = 7."
+      },
+      {
+        "turn": 32,
+        "role": "tutor",
+        "content": "Excellent! Thousands ka sum bhi 7 hai, aur koi carry nahi. Ab humare paas hai: Thousands = 7, Hundreds = 7, Tens = 7, Ones = 9. Inhe ek saath likho."
+      },
+      {
+        "turn": 33,
+        "role": "student",
+        "content": "7,7,7,9? Ya 7,779?"
+      },
+      {
+        "turn": 34,
+        "role": "tutor",
+        "content": "Bilkul, 7,779. Yeh hi total books ki sankhya hai. Ab apne shabdon mein batao: Library mein kitni kitabein hain?"
+      },
+      {
+        "turn": 35,
+        "role": "student",
+        "content": "Library mein total 7,779 kitabein hain."
+      },
+      {
+        "turn": 36,
+        "role": "tutor",
+        "content": "Bahut achha! Ab ek aur tareeka sochte hain: Number line par 5,312 ke baad 2,467 add karte hain. Agar hum 5,312 se start karen aur 2,000 aage badhein, to 7,312 ho jayega. Phir 400 aage badho, 7,712. Phir 60 aage, 7,772. Aur ant mein 7 aage, 7,779. Same answer milta hai, na? Samajh aaya?"
+      },
+      {
+        "turn": 37,
+        "role": "student",
+        "content": "Haan, same answer. Samajh aaya."
+      },
+      {
+        "turn": 38,
+        "role": "tutor",
+        "content": "Kya tum khush ho ki humne total kitabein nikal li? Agar koi aur similar problem ho, tum ab ise kar sakte ho."
+      },
+      {
+        "turn": 39,
+        "role": "student",
+        "content": "Haan, ab main thik se kar sakta hoon. Thank you."
+      }
+    ]
+  },
+  {
+    "seed_qa": {
+      "index": 2,
+      "grade": "4",
+      "topic": "subtraction",
+      "learning_objective": "solves simple daily life problems using addition and subtraction of four digit numbers with and without regrouping",
+      "question": "A school printed 5,432 exam papers. They distributed 3,789 papers to students. How many exam papers are left?",
+      "answer": "1,643",
+      "reasoning": "**Follow these strict teaching principles:**\n\n* Begin with **daily-life situations involving loss, difference, or remaining quantity** to ground subtraction meaningfully.\n* Treat subtraction as **finding how much is left or how much more/less**, not just reversing addition.\n* Emphasize **place value up to thousands (Thousands–Hundreds–Tens–Ones)** as the basis for all subtraction.\n* Encourage **estimation before calculation** to anticipate the size of the answer.\n* Use **place-wise subtraction**, moving from ones to thousands in a consistent order.\n* Treat **regrouping** as exchanging one higher place value for ten of the next lower place value.\n* Encourage explaining each regrouping step **in words** to prevent mechanical errors.\n* Promote checking answers using **alternative reasoning** such as addition or number-line thinking.\n* Reinforce that subtraction with and without regrouping follows the **same logical structure**. \n\n---\n\n**Teaching Flow (must follow in order):**\n\n1. Introduce a daily-life situation that requires **finding a remaining quantity or a difference**.\n2. Ask students to identify **what information is given** and **what needs to be found**.\n3. Guide students to **estimate the difference** using rounding to thousands or hundreds.\n4. Represent both numbers using **Thousands–Hundreds–Tens–Ones structure**.\n5. Guide subtraction by **starting from ones**, then tens, then hundreds, then thousands.\n6. Introduce **regrouping** when a place value does not have enough to subtract.\n7. Continue subtraction place by place until all digits are handled.\n8. Combine the remaining place-value parts to form the final result.\n9. Ask students to **state the answer clearly** in words.\n10. Restate the answer in the **context of the original situation**.\n11. Reinforce the solution by **checking through addition or estimation**. "
+    },
+    "conversation": [
+      {
+        "turn": 1,
+        "role": "student",
+        "content": "Mujhe ye question samajh nahi aa raha. Numbers bahut bade hain."
+      },
+      {
+        "turn": 2,
+        "role": "tutor",
+        "content": "Theek hai, chalo ek daily-life story se shuru karte hain. Socho school ne 5,432 exam papers print kiye. Fir unhone 3,789 papers students ko diye. Ab humein pata lagana hai ki kitne papers bach gaye. Is story mein tumhe kya‑kya diya gaya hai?"
+      },
+      {
+        "turn": 3,
+        "role": "student",
+        "content": "Um... school ne papers print kiye aur kuch diye students ko. 5,432 aur 3,789?"
+      },
+      {
+        "turn": 4,
+        "role": "tutor",
+        "content": "Bilkul, tumne sahi numbers bataye. Ab humse kya poochha gaya hai? Kya humein naya number find karna hai?"
+      },
+      {
+        "turn": 5,
+        "role": "student",
+        "content": "Haan, kitne papers left hain, ye poochha gaya hai."
+      },
+      {
+        "turn": 6,
+        "role": "tutor",
+        "content": "Pehle thoda estimation kar lete hain. Agar hum 5,432 ko 5,000 ke aas‑paas aur 3,789 ko 4,000 ke aas‑paas round kar dein, to difference kitna lagta hai? Tumhara guess kya hai?"
+      },
+      {
+        "turn": 7,
+        "role": "student",
+        "content": "Lagta hai shayad 1,000 ke aas‑paas?"
+      },
+      {
+        "turn": 8,
+        "role": "tutor",
+        "content": "Good! Approximation se humein lagta hai answer 1,000 se thoda zyada hoga. Ab hum exact subtraction karenge. Pehle dono numbers ko place value mein likhte hain: Thousands, Hundreds, Tens, Ones. 5,432 ka kya structure hai?"
+      },
+      {
+        "turn": 9,
+        "role": "student",
+        "content": "5 thousand, 4 hundred, 3 ten, aur 2 ones?"
+      },
+      {
+        "turn": 10,
+        "role": "tutor",
+        "content": "Bilkul sahi! Aur 3,789 ka structure?"
+      },
+      {
+        "turn": 11,
+        "role": "student",
+        "content": "3 thousand, 7 hundred, 8 ten, 9 ones."
+      },
+      {
+        "turn": 12,
+        "role": "tutor",
+        "content": "Bahut accha. Ab subtraction start karte hain Ones place se. Ones mein humare paas 2 (top) aur 9 (bottom) hain. 2 minus 9 directly nahi ho sakta. Kya hum borrow kar sakte hain? Samajh aaya?"
+      },
+      {
+        "turn": 13,
+        "role": "student",
+        "content": "Borrow? Matlab kya?"
+      },
+      {
+        "turn": 14,
+        "role": "tutor",
+        "content": "Borrow ka matlab hai, tens place se ek ten (10) le lena, taki ones place ke 2 ke saath milke 12 ho jaye. Toh hum tens digit 3 ko 2 bana denge, aur ones ke 2 ko 12 kar denge. Ab 12 minus 9 kitna hota hai?"
+      },
+      {
+        "turn": 15,
+        "role": "student",
+        "content": "12 minus 9... woh 3 hota hai na?"
+      },
+      {
+        "turn": 16,
+        "role": "tutor",
+        "content": "Bilkul, 3. Yeh humara Ones place ka answer hai. Samajh aaya?"
+      },
+      {
+        "turn": 17,
+        "role": "student",
+        "content": "Haan, samajh aaya."
+      },
+      {
+        "turn": 18,
+        "role": "tutor",
+        "content": "Ab Tens place dekhte hain. Borrow karne ke baad tens digit ab 2 (originally 3, lekin ek borrow kiya). Bottom tens digit 8 hai. 2 minus 8 bhi possible nahi. Phir se borrow karna padega. Is baar Hundreds place se ek hundred (100) lete hain, jo tens ko 12 banata hai. Toh Hundreds digit 4 becomes 3. Ab Tens place 12 minus 8 kitna?"
+      },
+      {
+        "turn": 19,
+        "role": "student",
+        "content": "12 minus 8... woh 4 hota hai?"
+      },
+      {
+        "turn": 20,
+        "role": "tutor",
+        "content": "Sahi! Tens place ka answer 4 hai. Clear hua?"
+      },
+      {
+        "turn": 21,
+        "role": "student",
+        "content": "Haan."
+      },
+      {
+        "turn": 22,
+        "role": "tutor",
+        "content": "Ab Hundreds place. After borrowing, Hundreds digit ab 3 (originally 4, gave one hundred to tens). Bottom Hundreds digit 7 hai. 3 minus 7 nahi ho sakta, isliye Thousands place se ek thousand (1000) lete hain. Thousands digit 5 becomes 4, aur Hundreds digit 3 becomes 13. Ab 13 minus 7 kitna?"
+      },
+      {
+        "turn": 23,
+        "role": "student",
+        "content": "13 minus 7... 6 hota hai, right?"
+      },
+      {
+        "turn": 24,
+        "role": "tutor",
+        "content": "Bilkul, Hundreds place ka answer 6 hai. Samajh aaya?"
+      },
+      {
+        "turn": 25,
+        "role": "student",
+        "content": "Haan."
+      },
+      {
+        "turn": 26,
+        "role": "tutor",
+        "content": "Finally, Thousands place. After borrowing, Thousands digit ab 4 (originally 5, gave one thousand). Bottom Thousands digit 3 hai. 4 minus 3 kitna?"
+      },
+      {
+        "turn": 27,
+        "role": "student",
+        "content": "4 minus 3... 1 hota hai."
+      },
+      {
+        "turn": 28,
+        "role": "tutor",
+        "content": "Great! Ab hum sab digits ko jodte hain: Thousands 1, Hundreds 6, Tens 4, Ones 3. To final answer 1,643. Kya tum is answer ko apne shabdon mein bol sakte ho?"
+      },
+      {
+        "turn": 29,
+        "role": "student",
+        "content": "Hmm... mujhe lagta hai answer 1,643 hai."
+      }
+    ]
+  }
+]
